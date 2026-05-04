@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pcosandpcod.vercel.app">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-pcosandpcod.vercel.app-blueviolet?style=for-the-badge" alt="Live Demo" />
+  <a href="https://luna-alpha-nine.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-luna--alpha--nine.vercel.app-blueviolet?style=for-the-badge" alt="Live Demo" />
   </a>
 </p>
 
