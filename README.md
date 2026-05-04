@@ -324,7 +324,15 @@ Developed under the **Open Innovation Track** at **HackAura 2025**
 
 ## 📜 License
 
-This project is developed for educational and hackathon purposes. Feel free to fork and contribute!
+This project was developed as a **Final Year Academic Project** and submitted as a contribution toward an ongoing **research paper** in the field of AI-powered women's healthcare.
+
+Our core mission is to **empower women** through:
+- 🎓 **Education** — Raising awareness about PCOS/PCOD among young women and students
+- 🔬 **Research** — Applying real-world Machine Learning to solve healthcare challenges
+- 💜 **Awareness** — Bridging the gap between technology and women's health literacy
+- 🌍 **Impact** — Making early health detection accessible to everyone, free of cost
+
+Feel free to **fork, contribute, or build upon** this work to further the cause of women's health! 🌸
 
 ---
 
