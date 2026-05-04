@@ -177,27 +177,8 @@ Luna/
 - **Training Data:** Preprocessed public + synthetic anonymized datasets
 - **Evaluation:** Accuracy, Precision, Recall, F1-Score
 
-### 📊 PCOS Detection Model Performance
-
-```mermaid
-xychart-beta
-    title "PCOS Early Detection Model Metrics (%)"
-    x-axis ["Accuracy", "Precision", "Recall", "F1 Score"]
-    y-axis "Percentage" 0 --> 100
-    bar [94, 92, 95, 93]
-```
-
-### 📉 Period Tracker Prediction Error by Pattern
-
-```mermaid
-xychart-beta
-    title "Mean Absolute Error (Days) by Menstrual Pattern"
-    x-axis ["Regular", "Slightly Irregular", "Irregular", "PCOS-Like"]
-    y-axis "Days off prediction" 0 --> 20
-    bar [2.3, 4.0, 7.0, 14.0]
-```
-
 ---
+
 
 ## ⚙️ How It Works
 
