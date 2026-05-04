@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCOS Wellness Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <main class="glass-container">
+        <div class="header">
+            <h1>PCOS Health Assistant ✨</h1>
+            <p>Your personalized guide to diet, exercise, and lifestyle</p>
+        </div>
+
+        <form id="healthForm">
+            <div class="form-grid">
+                <div class="input-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" required placeholder="e.g. 25" min="10" max="100">
+                </div>
+                <div class="input-group">
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" required placeholder="e.g. 60" min="20" max="200" step="0.1">
+                </div>
+                <div class="input-group">
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" required placeholder="e.g. 165" min="100" max="250" step="0.1">
+                </div>
+                <div class="input-group">
+                    <label for="pcos">PCOS/PCOD Diagnosed?</label>
+                    <select id="pcos" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="suspected">Suspected</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="sleep">Sleep (Hours/night)</label>
+                    <select id="sleep" required>
+                        <option value="less_than_6">Less than 6 hours</option>
+                        <option value="6_to_8">6-8 hours</option>
+                        <option value="more_than_8">More than 8 hours</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="stress">Are your stress levels high?</label>
+                    <select id="stress" required>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="exercise">Exercise Frequency</label>
+                    <select id="exercise" required>
+                        <option value="0">Rarely/Never</option>
+                        <option value="2">1-2 days/week</option>
+                        <option value="4">3-4 days/week</option>
+                        <option value="6">5+ days/week</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="diet_pref">Dietary Preference</label>
+                    <select id="diet_pref" required>
+                        <option value="mixed">Mixed (Any)</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="non-vegetarian">Non-Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="region">Region / Cuisine Preference</label>
+                    <select id="region" required>
+                        <option value="south_asian">South Asian (Indian/Desi)</option>
+                        <option value="western">Western / Continental</option>
+                        <option value="mediterranean">Mediterranean</option>
+                        <option value="east_asian">East Asian</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="goal">Primary Health Goal</label>
+                    <select id="goal" required>
+                        <option value="general">General Wellness</option>
+                        <option value="weight_loss">Weight Loss</option>
+                        <option value="stress_management">Stress Management</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="habits">Current Diet Habits</label>
+                    <select id="habits" required>
+                        <option value="none">Fairly Healthy</option>
+                        <option value="sweets">High Sweets/Sugar</option>
+                        <option value="fried">High Fried/Junk Food</option>
+                        <option value="low_protein">Low Protein</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <span>Generate My Plan</span>
+                <span class="icon">➜</span>
+            </button>
+        </form>
+
+        <div id="results" class="results-container hidden">
+            <!-- Results injected here by JS -->
+        </div>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="lifestyle-logic.js"></script>
+</body>
+
+</html>

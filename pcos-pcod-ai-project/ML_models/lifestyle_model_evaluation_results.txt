@@ -1,0 +1,63 @@
+Lifestyle Recommendation Model Evaluation
+=======================================
+
+Test Case 1:
+User ID: 161
+Lifestyle Factors:
+  - exercise: moderate
+  - diet: high_protein
+  - stress: low
+  - sleep: average
+  - weight_status: overweight
+  - pcos_severity: mild
+Similar Users: [161, 415, 319, 303, 11]
+Average Symptom Improvement: 5.76/10
+
+Test Case 2:
+User ID: 213
+Lifestyle Factors:
+  - exercise: none
+  - diet: low_fat
+  - stress: high
+  - sleep: good
+  - weight_status: overweight
+  - pcos_severity: moderate
+Similar Users: [213, 490, 287, 64, 56]
+Average Symptom Improvement: 2.62/10
+
+Test Case 3:
+User ID: 186
+Lifestyle Factors:
+  - exercise: none
+  - diet: keto
+  - stress: low
+  - sleep: poor
+  - weight_status: normal
+  - pcos_severity: moderate
+Similar Users: [186, 3, 293, 404, 39]
+Average Symptom Improvement: 3.50/10
+
+Test Case 4:
+User ID: 40
+Lifestyle Factors:
+  - exercise: moderate
+  - diet: vegetarian
+  - stress: high
+  - sleep: poor
+  - weight_status: underweight
+  - pcos_severity: severe
+Similar Users: [40, 356, 466, 388, 225]
+Average Symptom Improvement: 2.94/10
+
+Test Case 5:
+User ID: 314
+Lifestyle Factors:
+  - exercise: moderate
+  - diet: keto
+  - stress: medium
+  - sleep: good
+  - weight_status: overweight
+  - pcos_severity: moderate
+Similar Users: [314, 80, 292, 191, 424]
+Average Symptom Improvement: 5.54/10
+

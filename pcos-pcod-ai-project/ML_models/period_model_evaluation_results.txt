@@ -1,0 +1,44 @@
+Period Tracking Model Evaluation
+===============================
+
+User ID: 5
+Pattern Type: pcos_like
+Number of Training Cycles: 8
+Regularity Score: 0
+Actual Cycles: [33.0, 52.0, 24.0]
+Predicted Cycles: [43, 38, 39]
+Mean Absolute Error: 13.00 days
+
+User ID: 37
+Pattern Type: regular
+Number of Training Cycles: 8
+Regularity Score: 82
+Actual Cycles: [26.0, 23.0, 29.0]
+Predicted Cycles: [27, 27, 27]
+Mean Absolute Error: 2.33 days
+
+User ID: 7
+Pattern Type: irregular
+Number of Training Cycles: 8
+Regularity Score: 46
+Actual Cycles: [34.0, 41.0, 27.0]
+Predicted Cycles: [39, 34, 36]
+Mean Absolute Error: 7.00 days
+
+User ID: 14
+Pattern Type: slightly_irregular
+Number of Training Cycles: 8
+Regularity Score: 65
+Actual Cycles: [33.0, 34.0, 22.0]
+Predicted Cycles: [33, 33, 33]
+Mean Absolute Error: 4.00 days
+
+User ID: 4
+Pattern Type: pcos_like
+Number of Training Cycles: 8
+Regularity Score: 60
+Actual Cycles: [26.0, 21.0, 37.0]
+Predicted Cycles: [43, 43, 43]
+Mean Absolute Error: 15.00 days
+
+Overall Mean Absolute Error: 8.27 days

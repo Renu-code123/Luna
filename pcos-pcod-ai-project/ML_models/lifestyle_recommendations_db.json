@@ -1,0 +1,112 @@
+{
+  "diet": {
+    "balanced": [
+      "Focus on a balanced diet with plenty of fruits, vegetables, lean proteins, and whole grains.",
+      "Include anti-inflammatory foods like berries, fatty fish, and leafy greens.",
+      "Aim for regular meal times to help regulate blood sugar levels."
+    ],
+    "vegetarian": [
+      "Ensure adequate protein intake through beans, lentils, tofu, and dairy if consumed.",
+      "Include iron-rich foods like spinach and fortified cereals.",
+      "Consider vitamin B12 supplementation if not consuming dairy or eggs."
+    ],
+    "vegan": [
+      "Focus on complete protein sources like quinoa, buckwheat, and combinations of legumes and grains.",
+      "Include plant-based sources of omega-3 fatty acids like flaxseeds and walnuts.",
+      "Consider supplements for vitamin B12, vitamin D, and iron."
+    ],
+    "keto": [
+      "Choose healthy fats like avocados, olive oil, and nuts.",
+      "Include plenty of non-starchy vegetables for fiber and nutrients.",
+      "Monitor your ketone levels and consult with a healthcare provider regularly."
+    ],
+    "high_carb": [
+      "Switch to complex carbohydrates like whole grains, beans, and vegetables.",
+      "Pair carbohydrates with protein and healthy fats to slow glucose absorption.",
+      "Consider reducing overall carbohydrate intake to help manage insulin levels."
+    ],
+    "high_protein": [
+      "Choose lean protein sources to avoid excess saturated fat.",
+      "Include plant-based proteins for additional fiber and nutrients.",
+      "Ensure adequate carbohydrate intake for energy and brain function."
+    ],
+    "low_fat": [
+      "Include some healthy fats for hormone production and nutrient absorption.",
+      "Focus on lean proteins and complex carbohydrates.",
+      "Consider increasing healthy fat intake if experiencing hormonal imbalances."
+    ]
+  },
+  "exercise": {
+    "none": [
+      "Start with short, 10-minute walks and gradually increase duration.",
+      "Try gentle yoga or stretching to improve flexibility and reduce stress.",
+      "Consider water-based exercises which are low-impact and joint-friendly."
+    ],
+    "light": [
+      "Gradually increase intensity with brisk walking or light jogging.",
+      "Add resistance training 2-3 times per week to build muscle.",
+      "Include flexibility exercises to improve overall mobility."
+    ],
+    "moderate": [
+      "Maintain your current exercise routine with a mix of cardio and strength training.",
+      "Consider adding high-intensity interval training (HIIT) 1-2 times per week.",
+      "Include active recovery days with gentle movement like yoga or walking."
+    ],
+    "intense": [
+      "Ensure adequate recovery between intense workouts.",
+      "Monitor for signs of overtraining which can worsen hormonal imbalances.",
+      "Include stress-reducing activities like yoga or tai chi to balance high-intensity exercise."
+    ]
+  },
+  "stress_management": {
+    "high": [
+      "Practice daily mindfulness meditation for at least 10 minutes.",
+      "Consider cognitive behavioral therapy (CBT) to develop coping strategies.",
+      "Implement regular breaks throughout the day for deep breathing or short walks."
+    ],
+    "medium": [
+      "Develop a regular relaxation practice like progressive muscle relaxation or guided imagery.",
+      "Set boundaries on work hours and technology use.",
+      "Engage in enjoyable activities or hobbies regularly."
+    ],
+    "low": [
+      "Maintain your current stress management practices.",
+      "Practice gratitude journaling to further enhance well-being.",
+      "Consider teaching stress management techniques to others."
+    ]
+  },
+  "sleep": {
+    "poor": [
+      "Establish a consistent sleep schedule, even on weekends.",
+      "Create a relaxing bedtime routine without screens for 1 hour before bed.",
+      "Make your bedroom cool, dark, and quiet for optimal sleep conditions."
+    ],
+    "average": [
+      "Limit caffeine after noon and avoid alcohol close to bedtime.",
+      "Consider a white noise machine or earplugs if noise disrupts your sleep.",
+      "Aim to increase sleep duration by 30 minutes if currently sleeping less than 7 hours."
+    ],
+    "good": [
+      "Maintain your current sleep habits.",
+      "Consider tracking your sleep cycles to optimize wake times.",
+      "If you experience occasional insomnia, try relaxation techniques rather than medication."
+    ]
+  },
+  "supplements": {
+    "mild": [
+      "Consider inositol supplements which may help improve insulin sensitivity.",
+      "Vitamin D supplementation if levels are low (get tested first).",
+      "Magnesium may help with sleep and reduce sugar cravings."
+    ],
+    "moderate": [
+      "N-acetylcysteine (NAC) may help reduce inflammation and improve insulin sensitivity.",
+      "Omega-3 fatty acids can help reduce inflammation and improve hormone balance.",
+      "Chromium may help with blood sugar regulation and reducing cravings."
+    ],
+    "severe": [
+      "Consult with a healthcare provider about specific supplement needs.",
+      "Consider berberine which has been shown to have similar effects to metformin.",
+      "Alpha-lipoic acid may help improve insulin sensitivity and reduce inflammation."
+    ]
+  }
+}

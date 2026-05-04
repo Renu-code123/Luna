@@ -1,0 +1,16 @@
+
+    PCOS Early Detection Model Evaluation Results:
+    ---------------------------------------------
+    Accuracy: 0.6606
+    Precision: 0.4615
+    Recall: 0.1667
+    F1 Score: 0.2449
+    ROC AUC: 0.5369
+    
+    Confusion Matrix:
+    [[66  7]
+ [30  6]]
+    
+    Best Model Parameters:
+    {'classifier__max_depth': None, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}
+    
