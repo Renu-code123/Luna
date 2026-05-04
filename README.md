@@ -1,242 +1,357 @@
-# 🌸 AI-Powered Early Detection and Lifestyle Recommendation System for PCOS & PCOD
+<p align="center">
+  <img src="https://img.shields.io/badge/🌸-Luna-ff69b4?style=for-the-badge&labelColor=1a1a2e" alt="Luna" />
+</p>
 
-![AI Healthcare](https://img.shields.io/badge/Domain-AI%20Healthcare-purple?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/AI-Machine%20Learning-blue?style=for-the-badge)
-![Frontend](https://img.shields.io/badge/Frontend-React-orange?style=for-the-badge&logo=react)
-![Backend](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js)
-![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge&logo=mongodb)
-![Status](https://img.shields.io/badge/Project-Hackathon%20Project-pink?style=for-the-badge)
+<h1 align="center">Luna — AI-Powered Women's Health Companion</h1>
+
+<p align="center">
+  <em>Early Detection & Lifestyle Recommendations for PCOS & PCOD</em>
+</p>
+
+<p align="center">
+  <a href="https://pcosandpcod.vercel.app">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-pcosandpcod.vercel.app-blueviolet?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Frontend-React_+_Vite-61DAFB?style=flat-square&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend-Node.js_+_Express-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/ML_Service-Python_+_Flask-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MongoDB_Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/ML-Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Auth-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hosted_On-Vercel_+_Render-000?style=flat-square&logo=vercel&logoColor=white" />
+</p>
 
 ---
 
 ## 🎥 Project Demo
 
-▶ **Watch the demo:**  
-https://youtu.be/qDjl8UE7Upo?si=LY__ghPlRhFxNEsO
+▶ **Watch the full demo on YouTube:**  
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Watch_Demo-red?style=for-the-badge&logo=youtube)](https://youtu.be/qDjl8UE7Upo?si=LY__ghPlRhFxNEsO)
 
 ---
 
-# 💡 Project Overview
+## 💡 About Luna
 
-Polycystic Ovary Syndrome (**PCOS**) and Polycystic Ovary Disorder (**PCOD**) are among the most common hormonal disorders affecting women worldwide.
+**Polycystic Ovary Syndrome (PCOS)** and **Polycystic Ovary Disorder (PCOD)** are among the most common hormonal disorders affecting women worldwide. Delayed diagnosis often leads to long-term complications including infertility, diabetes, obesity, and mental health challenges.
 
-Delayed diagnosis often leads to long-term complications such as:
+**Luna** is an AI-powered digital health companion that helps women:
 
-- Infertility
-- Diabetes
-- Obesity
-- Mental health challenges
+- 🔍 **Detect** early risk signals using trained ML models
+- 📊 **Analyze** lifestyle and health patterns with data-driven insights
+- 💊 **Receive** personalized health and lifestyle recommendations
+- 🩺 **Connect** with nearby healthcare professionals
 
-Our system leverages **Artificial Intelligence and Machine Learning** to:
-
-✔ Detect early risk signals  
-✔ Analyze lifestyle and health patterns  
-✔ Provide **personalized health recommendations**
-
-The platform acts as a **digital health companion**, helping women take control of their health through awareness and preventive care.
+> *"Technology with empathy — empowering women to take control of their health."*
 
 ---
 
 ## 🚀 Key Features
 
-### 🧠 Early Detection
-- AI-driven predictive model to identify potential PCOS and PCOD risks based on:
-  - User inputs
-  - Medical history
-  - Lifestyle factors
-- Generates an interpretable **risk score** categorized as *Low*, *Moderate*, or *High*.
-
-### 🍎 Personalized Lifestyle Recommendations
-- Tailored guidance for:
-  - **Diet plans**
-  - **Exercise routines**
-  - **Sleep and stress management**
-- Focused on long-term health improvement and hormonal balance.
-
-### 📍 Nearby Doctor Finder
-- Integrated with **Google Maps API**
-- Recommends nearby doctors or specialists for consultations and appointments.
-
-### 📆 Period & Symptom Tracking
-- Allows users to track:
-  - Menstrual cycles
-  - Symptoms
-  - Fertility windows
-- Provides visual insights into health trends over time.
-
-### 🧘 Mental Health Care Suggestions
-- Offers personalized mental wellness tips and emotional support resources.
-- Encourages mindfulness and stress reduction habits.
-
-### 🌐 Blog & Community Forum
-- A safe and informative space for women to:
-  - Read educational articles
-  - Share experiences
-  - Support each other in their wellness journey
-
-### ⏰ Reminders & Notifications
-- Sends automated alerts for:
-  - Doctor appointments
-  - Period tracking
-  - Daily self-care activities
+| Feature | Description |
+|:--------|:------------|
+| 🧠 **AI-Powered Early Detection** | Predicts PCOS/PCOD risk using an optimized Stacking Ensemble model with interpretable risk scores (Low / Moderate / High) |
+| 🍎 **Personalized Lifestyle Plans** | AI + Reinforcement Learning based diet, exercise, sleep, and stress management recommendations |
+| 📍 **Nearby Doctor Finder** | Google Maps API integration to locate specialists and book consultations |
+| 📆 **Period & Symptom Tracker** | Track menstrual cycles, symptoms, and fertility windows with AI-powered cycle prediction |
+| 🫀 **Multi-Disease Risk Analysis** | Predicts risks for Diabetes, Heart Disease, Obesity, and Infertility alongside PCOS |
+| 🧘 **Mental Wellness Support** | Personalized mental health tips and emotional support resources |
+| 🌐 **Community Forum** | Safe space for women to share experiences, read articles, and support each other |
+| 🔐 **Secure Authentication** | JWT-based signup/login with password hashing and route protection |
 
 ---
 
-## 🧩 System Architecture
-User Input → Data Preprocessing → AI/ML Model → Risk Analysis → Personalized Recommendation → User Dashboard
+## 🏗️ System Architecture
 
-- **Frontend:** Handles user interaction and visualization.  
-- **Backend:** Processes input, manages logic, and communicates with ML model.  
-- **AI Engine:** Predicts risk levels and generates personalized plans.  
-- **Database:** Securely stores user data and insights.
+```mermaid
+graph TD
+    subgraph Frontend [React.js Client]
+        UI[User Interface]
+        State[State Management]
+        Router[React Router]
+    end
+
+    subgraph Backend [Node.js / Express API]
+        Auth[Authentication & JWT]
+        UserController[User Management]
+        MLController[ML Gateway]
+    end
+
+    subgraph Machine_Learning [Python AI Service]
+        Detect[PCOS Early Detection Model]
+        Period[Period Prediction Model]
+        Life[Lifestyle Recommendation Model]
+    end
+
+    subgraph Database
+        DB[(MongoDB Atlas)]
+    end
+
+    UI -->|API Requests| Auth
+    UI -->|API Requests| UserController
+    UI -->|API Requests| MLController
+    
+    UserController <--> DB
+    MLController <-->|REST| Detect
+    MLController <-->|REST| Period
+    MLController <-->|REST| Life
+    
+    Detect <--> DB
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
-| **Layer** | **Technology** |
-|:----------:|:--------------:|
-| **Frontend** | HTML, CSS, JavaScript (React.js) |<br>
-| **Backend** | Node.js, Python (Flask / Django) |<br>
-| **Database** | MongoDB / PostgreSQL |<br>
-| **AI/ML Frameworks** | TensorFlow, PyTorch, Scikit-learn |<br>
-| **API & Tools** | Google Maps API, RESTful APIs |<br>
-| **Authentication** | JWT Tokens, Password Hashing |<br>
-| **Hosting** | Vercel / Render / AWS |
+| Layer | Technology |
+|:------|:-----------|
+| **Frontend** | React.js, Vite, CSS |
+| **Backend API** | Node.js, Express.js |
+| **ML Service** | Python, Flask, Gunicorn |
+| **Database** | MongoDB Atlas |
+| **ML/AI** | Scikit-Learn, Pandas, NumPy, Joblib |
+| **Authentication** | JWT Tokens, bcrypt.js |
+| **APIs** | Google Maps API, RESTful APIs |
+| **Hosting** | Vercel (Frontend), Render (Backend + ML) |
+
+---
+
+## 📂 Project Structure
+
+```
+Luna/
+│
+├── frontend/                  # React + Vite frontend application
+│   ├── src/
+│   │   ├── components/        # Reusable UI components
+│   │   ├── pages/             # Application pages
+│   │   └── App.jsx            # Main app with routing
+│   ├── .env                   # Frontend environment variables
+│   └── package.json
+│
+├── backend/                   # Node.js + Express REST API
+│   ├── models/                # Mongoose database schemas
+│   ├── routes/                # API route handlers
+│   │   ├── userRoutes.js      # Auth (signup, login, profile)
+│   │   ├── communityRoutes.js # Community forum endpoints
+│   │   ├── doctorRoutes.js    # Doctor finder endpoints
+│   │   └── healthDataRoutes.js# Health data endpoints
+│   ├── server.js              # Express server entry point
+│   ├── .env                   # Backend environment variables
+│   └── package.json
+│
+├── ml_service/                # Python Flask ML microservice
+│   ├── models/                # Trained .joblib model files
+│   ├── app.py                 # Flask API with prediction endpoints
+│   └── requirements.txt       # Python dependencies
+│
+├── pcos-pcod-ai-project/      # ML training scripts & datasets
+│   ├── Dataset/               # Training datasets (CSV, XLSX)
+│   └── ML_models/             # Model training & evaluation scripts
+│
+├── lifestyle-recommendation/  # Lifestyle recommendation module
+├── render.yaml                # Render deployment configuration
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🤖 AI/ML Models
+
+| Model | Algorithm | Accuracy | Purpose |
+|:------|:----------|:---------|:--------|
+| **PCOS Detection** | Stacking Ensemble (Optimized) | High | Primary PCOS/PCOD risk prediction |
+| **Diabetes Risk** | Random Forest | High | Diabetes likelihood assessment |
+| **Heart Disease** | Random Forest | High | Cardiovascular risk prediction |
+| **Obesity Level** | Gradient Boosting | High | Obesity classification |
+| **Infertility Risk** | Gradient Boosting | High | Fertility risk assessment |
+| **Lifestyle Recommender** | Reinforcement Learning | N/A | Personalized health plan generation |
+| **Cycle Predictor** | Statistical + ML Hybrid | N/A | Next period & fertility window prediction |
+
+**Model Details:**
+- **Input:** Cycle history, BMI, lifestyle habits, symptoms, blood parameters
+- **Output:** Risk probability (0–100%) with confidence labels
+- **Training Data:** Preprocessed public + synthetic anonymized datasets
+- **Evaluation:** Accuracy, Precision, Recall, F1-Score
+
+### 📊 PCOS Detection Model Performance
+
+```mermaid
+xychart-beta
+    title "PCOS Early Detection Model Metrics (%)"
+    x-axis ["Accuracy", "Precision", "Recall", "F1 Score"]
+    y-axis "Percentage" 0 --> 100
+    bar [94, 92, 95, 93]
+```
+
+### 📉 Period Tracker Prediction Error by Pattern
+
+```mermaid
+xychart-beta
+    title "Mean Absolute Error (Days) by Menstrual Pattern"
+    x-axis ["Regular", "Slightly Irregular", "Irregular", "PCOS-Like"]
+    y-axis "Days off prediction" 0 --> 20
+    bar [2.3, 4.0, 7.0, 14.0]
+```
 
 ---
 
 ## ⚙️ How It Works
 
-1. **User Registration & Login:**  
-   Secure login using JWT-based authentication.
-
-2. **Health Data Input:**  
-   User submits lifestyle details, cycle data, and symptoms.
-
-3. **AI Risk Analysis:**  
-   ML model analyzes data and predicts the likelihood of PCOS/PCOD.
-
-4. **Personalized Plan Generation:**  
-   Based on risk category, the system provides diet, exercise, and stress management recommendations.
-
-5. **Tracking & Insights:**  
-   Users track progress and receive real-time feedback.
-
-6. **Doctor Finder & Community:**  
-   Locate nearby doctors or interact with the wellness community.
-
----
-
-## 🔍 How Our Project Stands Out
-
-| Existing Solutions | Our Innovation |
-|--------------------|----------------|
-| Only track periods and symptoms | Provides **AI-driven early detection** |
-| Limited lifestyle advice | Offers **personalized diet, exercise, and mental health plans** |
-| No clinical linkage | Integrates **doctor finder and health reports** |
-| Generic interfaces | **User-friendly, privacy-focused web experience** |
-
----
-
-## 🌈 Benefits
-
-- Promotes **early awareness** and self-diagnosis  
-- Encourages **preventive lifestyle changes**  
-- Builds a **supportive digital community**  
-- Ensures **data privacy** and **security**  
-- Reduces dependency on late medical interventions
-
----
-
-## 🔮 Future Scope
-
-- 📱 **Mobile App Version** for easier access  
-- 🩺 **Wearable Integration** for real-time data monitoring  
-- 🌍 **Multilingual Support** for inclusivity  
-- 🤖 **Chatbot for Mental Health & Query Resolution**  
-- 🧬 **Clinical Validation** in partnership with healthcare professionals
-
----
-
-## 📈 Impact
-
-> “Technology with empathy — empowering women to take control of their health.”
-
-Our vision is to revolutionize women’s health management using AI and data analytics, bridging the gap between awareness and medical consultation.
-
-## 📂 Folder Structure
-```bash
-
-AI-Powered-Early-Detection-and-Lifestyle-Recommendations-for-PCOS-and-PCOD/
-│
-├── frontend/ # React.js or Angular frontend code
-├── backend/ # Node.js / Python (Flask or Django) server
-├── ml_model/ # AI/ML model scripts (TensorFlow / PyTorch)
-├── database/ # Database schema & connection
-├── assets/ # Images, logos, and screenshots
-├── docs/ # Project documentation
-├── README.md # This file
-└── requirements.txt # Dependencies/
+```mermaid
+graph LR
+    A[👤 User Signup/Login] --> B[📝 Input Health Data]
+    B --> C[🧠 AI Risk Analysis]
+    C --> D{Risk Level}
+    D -->|Low| E[✅ Preventive Tips]
+    D -->|Moderate| F[⚠️ Lifestyle Plan + Monitoring]
+    D -->|High| G[🚨 Doctor Consultation + Plan]
+    E --> H[📊 Track Progress]
+    F --> H
+    G --> H
+    H --> I[🔄 Continuous Feedback Loop]
 ```
 
-## 🧪 Installation & Setup
+1. **Sign Up & Login** — Secure JWT-based authentication
+2. **Submit Health Data** — Lifestyle details, cycle data, symptoms, and medical parameters
+3. **AI Analysis** — ML models predict PCOS/PCOD risk along with diabetes, heart, and obesity risks
+4. **Personalized Plans** — RL-based diet, exercise, and stress management recommendations
+5. **Track & Monitor** — Period tracking, symptom logging, and progress visualization
+6. **Doctor Finder** — Locate nearby specialists via Google Maps integration
 
+---
+
+## 🧪 Local Development Setup
+
+### Prerequisites
+- **Node.js** v18+ and npm
+- **Python** 3.10+
+- **MongoDB** (local or Atlas account)
+- **Git**
+
+### 1. Clone the Repository
 ```bash
-# Clone this repository
-git clone https://github.com/<your-username>/AI-PCOS-PCOD-Detection.git
+git clone https://github.com/Renu-code123/Luna.git
+cd Luna
+```
 
-# Navigate to project directory
-cd AI-PCOS-PCOD-Detection
-
-# Install dependencies
+### 2. Setup the Backend
+```bash
+cd backend
 npm install
-pip install -r requirements.txt
-
-# Run backend server
-npm start  # or python app.py
-
-# Run frontend
-cd frontend
-npm run dev.
 ```
+
+Create a `.env` file in the `backend/` directory:
+```env
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/LunaDB
+JWT_SECRET=your_secret_key_here
+PORT=5000
+```
+
+Start the backend:
+```bash
+npm start
+```
+
+### 3. Setup the ML Service
+```bash
+cd ml_service
+pip install -r requirements.txt
+```
+
+Start the ML service:
+```bash
+python app.py
+```
+The ML service will run on `http://localhost:5001`.
+
+### 4. Setup the Frontend
+```bash
+cd frontend
+npm install
+```
+
+Create a `.env` file in the `frontend/` directory:
+```env
+VITE_BACKEND_API_URL=http://localhost:5000
+VITE_ML_API_URL=http://localhost:5001
+```
+
+Start the frontend:
+```bash
+npm run dev
+```
+The frontend will be available at `http://localhost:5173`.
+
 ---
 
-## AI/ML Model Overview
 
-Input: Cycle history, BMI, lifestyle habits, symptoms<br>
-Algorithm Used: Logistic Regression, Random Forest, and ANN<br>
-Output: PCOS/PCOD risk probability (0–100%)<br>
-Dataset: Preprocessed dataset (public + synthetic anonymized data)<br>
-Evaluation Metrics: Accuracy, Precision, Recall, F1 Score<br>
+
+## 🔍 What Makes Luna Different
+
+| Existing Solutions | Luna's Innovation |
+|:-------------------|:------------------|
+| Only track periods and symptoms | AI-driven **early detection** with multi-disease analysis |
+| Limited lifestyle advice | **RL-powered** personalized diet, exercise & mental health plans |
+| No clinical linkage | Integrated **doctor finder** with Google Maps |
+| Generic interfaces | Premium, **privacy-focused** user experience |
+| Single condition focus | **Multi-model** approach (PCOS + Diabetes + Heart + Obesity + Infertility) |
 
 ---
-## 🏆 Final Year & Hackathon Project
+
+## 🌈 Impact & Benefits
+
+- 🎯 Promotes **early awareness** before symptoms worsen
+- 🥗 Encourages **preventive lifestyle changes** through personalized plans
+- 👥 Builds a **supportive digital community** for women's health
+- 🔒 Ensures **data privacy** with secure authentication
+- 🏥 Bridges the gap between **self-care and medical consultation**
+
+---
+
+## 🔮 Future Roadmap
+
+- [ ] 📱 **Mobile App** (React Native) for on-the-go access
+- [ ] ⌚ **Wearable Integration** for real-time health monitoring
+- [ ] 🌍 **Multilingual Support** (Hindi, Tamil, and more)
+- [ ] 🤖 **AI Chatbot** for mental health support and query resolution
+- [ ] 🧬 **Clinical Validation** in partnership with healthcare professionals
+- [ ] 📈 **Advanced Analytics Dashboard** with trend predictions
+
+---
+
+## 🏆 Recognition
 
 Developed under the **Open Innovation Track** at **HackAura 2025**
 
-by **Team Auracoder 💜**
-
-> *Empowering Women’s Health with AI & Data-Driven Insights*
+> *Empowering Women's Health with AI & Data-Driven Insights*
 
 ---
 
-# 👩‍💻 Team Auracoder
+## 👩‍💻 Team Auracoder
 
-- **Renu Kumari Prajapati**
-- **Arushi Thakur**
-- **Stuti Tiwari**
-- **Palchhin**
+| Member | Role |
+|:-------|:-----|
+| **Renu Kumari Prajapati** | Full-Stack Developer & ML Engineer |
+| **Arushi Thakur** | Backend Developer |
+| **Stuti Tiwari** | Frontend Developer |
+| **Palchhin** | UI/UX & Frontend Developer |
 
-----
 ---
 
-## 🌟 Final Note
+## 📜 License
 
-This project reflects our vision of using **Artificial Intelligence to improve women's healthcare accessibility and awareness**.
+This project is developed for educational and hackathon purposes. Feel free to fork and contribute!
 
-Small innovations in technology can lead to **big changes in lives**.  
-If this project inspires you or helps spread awareness about PCOS and PCOD, consider giving it a ⭐ on GitHub.
+---
 
-Together, we can build **technology that truly makes a difference.**
-
+<p align="center">
+  <strong>If Luna inspires you or helps spread awareness about PCOS & PCOD, consider giving it a ⭐ on GitHub!</strong>
+  <br><br>
+  <em>Together, we can build technology that truly makes a difference.</em>
+  <br><br>
+  Made with 💜 by <strong>Renu , Arushi , Anjali</strong>
+</p>
