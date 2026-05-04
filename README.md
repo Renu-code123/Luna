@@ -331,14 +331,13 @@ Developed under the **Open Innovation Track** at **HackAura 2025**
 
 ---
 
-## 👩‍💻 Team Auracoder
+## 👩‍💻 Team 
 
 | Member | Role |
 |:-------|:-----|
 | **Renu Kumari Prajapati** | Full-Stack Developer & ML Engineer |
 | **Arushi Thakur** | Backend Developer |
-| **Stuti Tiwari** | Frontend Developer |
-| **Palchhin** | UI/UX & Frontend Developer |
+| **Anjali Yadav** | UI/UX & Frontend Developer |
 
 ---
 
